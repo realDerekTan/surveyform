@@ -16,6 +16,12 @@ input {
   height: 1.2rem;
 }
 
+textarea {
+  width: 80%;
+  height: 4rem;
+  margin: 10px auto;
+}
+
 .form {
   background-color: white;
   border-radius: 25px;
@@ -33,9 +39,10 @@ input {
 #name,
 #email,
 #number {
-  height: 1.5rem;
+  height: 1.3rem;
   width: 80%;
   margin: 10px auto;
+  font-size: 1rem;
 }
 
 #submit {
@@ -45,4 +52,5 @@ input {
   border-radius: 10px;
   font-size: 1.2rem;
   width: 80%;
+  height: 2.5rem;
 }
