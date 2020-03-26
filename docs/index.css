@@ -8,6 +8,14 @@ body {
   background-size: cover;
 }
 
+label {
+  font-size: 1.1rem;
+}
+
+input {
+  height: 1.2rem;
+}
+
 .form {
   background-color: white;
   border-radius: 25px;
@@ -20,4 +28,21 @@ body {
 .form-group {
   margin: 0 auto 1.25rem auto;
   padding: 0.25rem;
+}
+
+#name,
+#email,
+#number {
+  height: 1.5rem;
+  width: 80%;
+  margin: 10px auto;
+}
+
+#submit {
+  color: white;
+  background-color: green;
+  padding: 1.2rem 1rem;
+  border-radius: 10px;
+  font-size: 1.2rem;
+  width: 80%;
 }
