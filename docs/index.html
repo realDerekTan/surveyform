@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="">
+  </head>
+  <body>
+    <h1 id="title">Sample Register Form</h1>
+    <p id="description">Please fill in this form to create an account.</p>
+    <form id="survey-form">
+      <label for="name" id="name-label">Name </label><br>
+      <input type="text" id="name" placeholder="Enter name" required><br>
+      <label for="email" id="email-label">Email </label><br>
+      <input type="email" id="email" placeholder="Enter email" required><br>
+      <label for="age" id="number-label">Age (optional)</label><br>
+      <input type="number" id="number" min="0" max="130" placeholder="Enter age"><br>
+      <label for="dropdown">Occupation</label><br>
+      <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="teacher">Teacher</option>
+        <option value="artist">Artist</option>
+        <option value="doctor">Doctor</option>
+        <option value="engineer">Engineer</option>
+        <option value="journalist">Journalist</option>
+        <option value="lawyer">Lawyer</option>
+        <option value="businessman">Businessman</option>
+        <option value="other">Other/Not Listed</option>
+      </select><br>
+      <label for="gender">Gender</label><br>
+      <input type="radio" id="male" name="gender" value="male" required>
+      <label for="male">Male</label><br>
+      <input type="radio" id="female" name="gender" value="female" required>
+      <label for="female">Female</label><br>
+      <input type="radio" id="other" name="gender" value="other" required>
+      <label for="other">Other</label><br>
+      <br>
+      <input type="checkbox" value="over13">
+      <label for="age_consent">I adknowledge that I am over the age of 13.</label><br>
+      <input type="checkbox" value="agree">
+      <label for="tnc">I agree to the <a href="#">Terms and Conditions</a></label><br>
+      <label for="comments">Any suggestions on how to improve this sign-up process?</label><br>
+      <textarea id="w3mission" rows="4" cols="50"></textarea><br>
+      <input type="submit" id="submit" value="Register">
+
+      <div class="container signin">
+        <p>Already have an account? <a href="#">Sign in</a>.</p>
+      </div>
+    </form>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" async defer></script>
+  </body>
+</html>
