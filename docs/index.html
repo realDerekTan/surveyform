@@ -17,7 +17,7 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="form" style="margin-top: 25%;">
+        <form style="margin-top: 25%;">
           <h1 id="title">Sample Registration Form</h1>
           <p>Please fill in this form to create an account.</p>
           <div class="row">
@@ -28,6 +28,7 @@
                 type="email"
                 placeholder="test@mailbox.com"
                 id="exampleEmailInput"
+                required
               />
             </div>
             <div class="six columns">
@@ -38,8 +39,28 @@
                 <option value="Option 3">Can I get your number?</option>
               </select>
             </div>
+            <label for="exampleMessage">Message</label>
+            <textarea
+              class="u-full-width"
+              placeholder="Type your message here"
+              id="exampleMessage"
+              required
+            ></textarea>
+            <label>
+              <input type="checkbox" required />
+              <span class="label-body"
+                >I acknowledge that I am over the age of 13.</span
+              >
+            </label>
+            <label>
+              <input type="checkbox" required />
+              <span class="label-body"
+                >I agree to the <a href="#">Terms and Conditions</a></span
+              >
+            </label>
+            <input class="button-primary" type="submit" value="Submit" />
           </div>
-        </div>
+        </form>
       </div>
     </div>
     <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js" />
