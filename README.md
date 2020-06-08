@@ -1,3 +1,3 @@
 # surveyform
 
-A simple survey template created using HTML, CSS, and Skeleton framework
+A simple feedback form template created using HTML, CSS, and the Skeleton framework
